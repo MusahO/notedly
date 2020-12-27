@@ -61,7 +61,7 @@ const Header = props=>{
                     ): (
                         <p>
                             <Link to={'/signin'}>Sign In</Link> or {' '}
-                            <Link to={'/signup'}>Sign Out</Link>
+                            <Link to={'/signup'}>Sign Up</Link>
                         </p>
                     )
                 }
