@@ -15,7 +15,7 @@ const FavoriteNote = props => {
   );
 
   // toggleFavorite mutation hook
-  const [toggleFavorite] = useMutation(TOGGLE_FAVORITE, {
+  const [toggleLike] = useMutation(TOGGLE_FAVORITE, {
     variables: {
       id: props.noteId
     },
